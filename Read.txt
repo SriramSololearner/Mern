@@ -1,0 +1,10 @@
+React Application
+npx create-react-app
+install Axios,react-router-dom@latest
+
+ExpressJs
+required Dependencies
+- express
+- nodemon
+- mongoose
+- cors
