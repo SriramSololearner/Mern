@@ -1,0 +1,89 @@
+/* Nav css */
+.nav {
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height:50px;
+  background-color: violet;
+  
+}
+.nav a{
+  text-decoration: none;
+  color:red;
+}
+.nav a:hover{
+  color:white;
+  box-shadow: 0px 0px 1px 1px red;
+}
+
+/* Home css */
+
+table{
+  margin:50px auto;
+  background-color: rgb(155, 238, 238);
+}
+
+table tr th td{
+  width:80%;
+  text-align: center;
+
+}
+
+
+
+table>tr>td{
+  border:1px solid rgb(244, 230, 230);
+  padding: 5px;
+  margin:20px;
+}
+
+/* get css */
+
+.form{
+  width:20%;
+  height: 60vh;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(105, 185, 246);
+  margin: 50px auto;
+  padding-top: 20px;
+}
+
+.form input{
+  
+  border: none;
+  padding: 8px 5px;
+}
+.form input:focus{
+  
+  outline:2px solid rgb(67, 58, 233);
+  
+}
+
+
+button{
+  padding: 5px 20px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+button:hover{
+  color:white;
+  background-color: blueviolet;
+  border: solid blueviolet;
+  border: none;
+  transition: 1s ease-in;
+}
+
+/* search */
+
+.View{
+  margin: 20px 80px;
+}
+
+
+
+
