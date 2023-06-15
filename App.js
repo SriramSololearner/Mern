@@ -37,7 +37,7 @@ app.get("/getData",async(req,res)=>{
 });
 
 app.post("/addData",(req,res)=>{
-    console.log(' add    Data')
+   
     const usr=new Usrmodel(req.body);
     usr.save()
     .then(()=>{
